@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Bai Jamjuree", sans-serif;
+    background: #000;
+}
+
+/* ========== Common ========== */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    width: min(1170px, 80%);
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: #fff;
+    background: grey;
+}
+/* ========== Header ========== */
+.header {
+    position: fixed;
+    background: #000;
+    width: 100%;
+}
+
+.logo img {
+    width: 150px;
+    height: 47px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-200%);
+}
+
+.navbar__link {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 23px;
+}
+
+.navbar__link:hover {
+    border-top: 3px solid #febe10;
+}
+
+/* ========== Media ========== */
+
+#media-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+#media {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ========== Intro ========== */
+.intro {
+    display: flex;
+    margin-top: 100px;
+}
+
+.intro__item {
+    flex: 1;
+    padding: 20px;
+}
+
+.intro__item-2 {
+    border-left: 3px solid #febe10;
+    border-right: 3px solid #febe10;
+}
+
+.intro__title {
+    text-align: center;
+    font-size: 6rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.intro__desc {
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 25px;
+}
+/* ========== News ========== */
+.news__title {
+    color: #ffffff;
+    font-size: 10rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.news {
+    display: flex;
+    margin-top: 50px;
+}
+
+.news__item {
+    flex: 1;
+    padding: 10px;
+}
+
+.news__content img {
+    width: 100%;
+}
+
+.news__content h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+/* ========== Video ========== */
+.videos__title {
+    color: #ffffff;
+    font-size: 10rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    margin-top: 50px;
+}
+
+.videos__item {
+    flex: 1;
+    padding: 10px;
+}
+
+.videos__content img {
+    width: 100%;
+}
+
+.videos__content h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+/* ========== Footer ========== */
+footer h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.partners img {
+    width: 10%;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.footer__line {
+    background: #febe10;
+    width: 100%;
+    height: 14px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons__item {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    line-height: 20px;
+    text-align: center;
+    color: #969696;
+    margin-top: 30px;
+    text-transform: uppercase;
+}

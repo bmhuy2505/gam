@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GAM - Esports Entertainment.</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
+    <body>
+        <!-- PC Header -->
+        <header class="header">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="#!">
+                        <img src="./assets/img/logo.png" alt="GAM" />
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <!-- Tablet/Mobile menu -->
+                <label for="menu-checkbox" class="toggle__menu">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="16"
+                        width="14"
+                        viewBox="0 0 448 512"
+                    >
+                        <path
+                            fill="currentColor"
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                        />
+                    </svg>
+                </label>
+                <!-- Navbar -->
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">news</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">shop</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">videos</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">team</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">partners</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#!" class="navbar__link">about</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Tablet/Mobile Header -->
+        <header class="mobile__header">
+            <input
+                type="checkbox"
+                name=""
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <!-- Menu overlay -->
+            <label for="menu-checkbox" class="menu-overlay"></label>
+            <!-- Menu content -->
+            <div class="menu-drawer">
+                <ul>
+                    <li>
+                        <a href="#!">home</a>
+                    </li>
+                    <li>
+                        <a href="#!">news</a>
+                    </li>
+                    <li>
+                        <a href="#!">shop</a>
+                    </li>
+                    <li>
+                        <a href="#!">videos</a>
+                    </li>
+                    <li>
+                        <a href="#!">team</a>
+                    </li>
+                    <li>
+                        <a href="#!">partners</a>
+                    </li>
+                    <li>
+                        <a href="#!">about</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- Main content -->
+        <main>
+            <!-- Media -->
+            <section id="media-container">
+                <video id="media" autoplay muted loop>
+                    <source
+                        src="./assets/video/GAM at Worlds 2022 Recap.mp4"
+                        type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <!-- Intro -->
+            <section class="container">
+                <div class="intro">
+                    <div class="intro__item intro__item-1">
+                        <h1 class="intro__title">MISSION</h1>
+                        <p class="intro__desc">
+                            UNITE AND INSPIRE PEOPLE AROUND THE WORLD THROUGH
+                            ESPORTS ENTERTAINMENT.
+                        </p>
+                    </div>
+                    <div class="intro__item intro__item-2">
+                        <h1 class="intro__title">VISION</h1>
+                        <p class="intro__desc">
+                            GAM ENTERTAINMENT IS THE LEADING ESPORTS
+                            ENTERTAINMENT ORGANIZATION FOCUSED ON BUILDING
+                            CHAMPIONSHIP TEAMS, CREATING CAPTIVATING
+                            EXPERIENTIAL ENTERTAINMENT, AND GROWING THE ESPORTS
+                            AND GAMING COMMUNITY.
+                        </p>
+                    </div>
+                    <div class="intro__item intro__item-3">
+                        <h1 class="intro__title">VALUES</h1>
+                        <p class="intro__desc">PLAY WITH INTEGRITY</p>
+                        <p class="intro__desc">PLAY WITH PASSION</p>
+                        <p class="intro__desc">PLAY TO INSPIRE</p>
+                        <p class="intro__desc">PLAY TO UNITE</p>
+                        <p class="intro__desc">PLAY TO WIN</p>
+                    </div>
+                </div>
+            </section>
+            <!-- News -->
+            <section class="container">
+                <h1 class="news__title">last news</h1>
+                <div class="news">
+                    <!-- News 1 -->
+                    <div class="news__item news__item-1">
+                        <a href="#!" class="news__content">
+                            <img
+                                src="./assets/img/news_1.jpg"
+                                alt="Hình ảnh 1"
+                            />
+                            <h2 class="news__content-title">
+                                GAM Esports Chiến Thắng Team Liquid ở CKTG 2023
+                            </h2>
+                            <div class="news__btn btn">Read more</div>
+                        </a>
+                    </div>
+                    <!-- News 2 -->
+                    <div class="news__item news__item-2">
+                        <a href="#!" class="news__content">
+                            <img
+                                src="./assets/img/news_2.jpg"
+                                alt="Hình ảnh 1"
+                            />
+                            <h2 class="news__content-title">
+                                Lượng người xem CKTG 2023: Trận đấu của GAM
+                            </h2>
+                            <div class="news__btn btn">Read more</div>
+                        </a>
+                    </div>
+                    <!-- News 3 -->
+                    <div class="news__item news__item-3">
+                        <a href="#!" class="news__content">
+                            <img
+                                src="./assets/img/news_3.jpg"
+                                alt="Hình ảnh 1"
+                            />
+                            <h2 class="news__content-title">
+                                GAM Life at Asian Games | EP.1: SẴN SÀNG
+                            </h2>
+                            <div class="news__btn btn">Read more</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- Videos -->
+            <section class="container">
+                <h1 class="videos__title">last videos</h1>
+                <div class="videos">
+                    <!-- videos 1 -->
+                    <div class="videos__item videos__item-1">
+                        <a href="#!" class="videos__content">
+                            <img
+                                src="./assets/img/videos_1.jpg"
+                                alt="Hình ảnh 1"
+                            />
+                            <h2 class="videos__content-title">
+                                GAM Life at Worlds’23 | EP.1: TRỞ LẠI VỚI CHUNG
+                                KẾT
+                            </h2>
+                            <div class="videos__btn btn">Watch more</div>
+                        </a>
+                    </div>
+                    <!-- videos 2 -->
+                    <div class="videos__item videos__item-2">
+                        <a href="#!" class="videos__content">
+                            <img
+                                src="./assets/img/videos_2.jpg"
+                                alt="Hình ảnh 1"
+                            />
+                            <h2 class="videos__content-title">
+                                GAM Life at Asian Games | EP.1: SẴN SÀNG
+                            </h2>
+                            <div class="videos__btn btn">Watch more</div>
+                        </a>
+                    </div>
+                    <!-- videos 3 -->
+                    <div class="videos__item videos__item-3">
+                        <a href="#!" class="videos__content">
+                            <img
+                                src="./assets/img/videos_3.jpg"
+                                alt="Hình ảnh 1"
+                            />
+                            <h2 class="videos__content-title">
+                                GAM Esports Chiến Thắng Team Liquid ở CKTG 2023
+                            </h2>
+                            <div class="videos__btn btn">Watch more</div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <h2>partners</h2>
+            <div class="partners">
+                <img src="./assets/img/partners_1.png" alt="CMG.ASIA" />
+                <img src="./assets/img/partners_2.png" alt="SKYLIGHT" />
+                <img src="./assets/img/partners_3.png" alt="MONSTER" />
+                <img src="./assets/img/partners_4.png" alt="LOGITECH" />
+                <img src="./assets/img/partners_5.png" alt="UPFIT" />
+                <img src="./assets/img/partners_6.png" alt="DA" />
+            </div>
+            <h2>contact us</h2>
+            <p>Email: info@gam.gg</p>
+            <p>
+                Address: 33 Nguyen Huu Tho, Tan Hung Ward, District 7, Ho Chi
+                Minh city, Vietnam
+            </p>
+            <div class="footer__line"></div>
+            <div class="icons">
+                <!-- Tiktok -->
+                <a href="#!">
+                    <div class="icons__item">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="14"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
+                            />
+                        </svg>
+                    </div>
+                </a>
+                <!-- Youtube -->
+                <a href="#!">
+                    <div class="icons__item">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="18"
+                            viewBox="0 0 576 512"
+                        >
+                            <path
+                                d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                            />
+                        </svg>
+                    </div>
+                </a>
+                <!-- Facebook -->
+                <a href="#!">
+                    <div class="icons__item">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="16"
+                            viewBox="0 0 512 512"
+                        >
+                            <path
+                                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                            />
+                        </svg>
+                    </div>
+                </a>
+                <!-- Instagram -->
+                <a href="#!">
+                    <div class="icons__item">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="14"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                            />
+                        </svg>
+                    </div>
+                </a>
+                <!-- Twitter -->
+                <a href="#!">
+                    <div class="icons__item">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="16"
+                            width="16"
+                            viewBox="0 0 512 512"
+                        >
+                            <path
+                                d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"
+                            />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+            <div class="copyright">
+                Copyright 2023 GAM.GG .All rights reserved
+            </div>
+        </footer>
+    </body>
+</html>
